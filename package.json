@@ -7,10 +7,8 @@
         "postinstall": "node ./decorate-angular-cli.js && ngcc --properties es2020 browser module main",
         "start": "node server.js",
         "build": "nx build",
-        "build-prod-admin": "nx build e-com-app-admin --prod --base-href /PinkBITS-Admin/",
-        "build-prod-user": "nx build e-comm-app-user --prod --base-href /PinkBITS/",
         "test": "nx test",
-        "heroku-postbuild": "nx build e-com-app-admin --prod --base-href /PinkBITS-Admin/"
+        "heroku-postbuild": "nx build e-com-app-admin --prod"
     },
     "private": true,
     "dependencies": {
