@@ -1,0 +1,13 @@
+{
+    "hosting": {
+        "site": "pinkbits-admins",
+        "public": "dist/apps/e-com-app-admin",
+        "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+        "rewrites": [
+            {
+                "source": "**",
+                "destination": "/index.html"
+            }
+        ]
+    }
+}
